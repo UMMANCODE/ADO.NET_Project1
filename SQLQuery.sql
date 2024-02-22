@@ -1,0 +1,10 @@
+CREATE DATABASE Worklife
+
+USE Worklife
+
+CREATE TABLE Brands
+(
+	Id INT PRIMARY KEY IDENTITY,
+	[Name] VARCHAR(20),
+	[Year] DATE
+)
